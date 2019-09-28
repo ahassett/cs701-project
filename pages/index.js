@@ -50,7 +50,7 @@ handleSelect(selectedTab) {
                             <Button variant="success" className='save-button'>Save</Button>
                         </Accordion.Toggle>
                          <Accordion.Collapse eventKey="0">
-                             <Card.Body>Hello! I'm the body</Card.Body>
+                             <Card.Body>Class Details</Card.Body>
                          </Accordion.Collapse>
                      </Card>
                      <Card>

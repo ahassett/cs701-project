@@ -11,6 +11,7 @@
     border-radius: 10px;
     width: 600px;
     height: 510px;
+    overflow-y: scroll;
 }
 .catelog{
     position: absolute;
@@ -20,6 +21,7 @@
     width: 730px;
     height: 510px;
     left: 660px;
+    overflow-y: scroll;
 }
 .button{
     position: fixed;
