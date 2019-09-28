@@ -5,6 +5,8 @@ import Head from 'next/head';
 import Button from 'react-bootstrap/Button';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Nav from 'react-bootstrap/Nav';
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default () => (
@@ -20,7 +22,8 @@ export default () => (
         <Button variant="outline-dark" className="button" style={{'margin-left': '455px'}}>New Schedule</Button>
     </div>
     <div className='catelog'>
-        <Dropdown>
+
+        <Dropdown id='select-semester'>
             <Dropdown.Toggle variant="success" id="dropdown-basic" style={{'position': 'fixed', 'top': '90px', 'margin-left': '555px'}}>
                 Select Semester
             </Dropdown.Toggle>
@@ -31,7 +34,8 @@ export default () => (
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
-        <Nav variant="tabs" defaultActiveKey="./" style={{'margin-top':'20px'}}>
+
+        <Nav id= 'catelog-tabs' variant="tabs" defaultActiveKey="./" style={{'margin-top':'20px'}}>
             <Nav.Item>
                 <Nav.Link href="./">Catelog</Nav.Link>
             </Nav.Item>
@@ -39,6 +43,21 @@ export default () => (
                 <Nav.Link eventKey="link-1">Saved Classes</Nav.Link>
             </Nav.Item>
         </Nav>
+
+        <Accordion defaultActiveKey="0">
+            <Card>
+                <Accordion.Toggle as={Card.Header} eventKey="0">Class Title</Accordion.Toggle>
+                <Accordion.Collapse eventKey="0">
+                    <Card.Body>Hello! I'm the body</Card.Body>
+                </Accordion.Collapse>
+            </Card>
+            <Card>
+                <Accordion.Toggle as={Card.Header} eventKey="1">Class Title 2</Accordion.Toggle>
+                <Accordion.Collapse eventKey="1">
+                    <Card.Body>Hello! I'm another body</Card.Body>
+                </Accordion.Collapse>
+            </Card>
+        </Accordion>
     </div>
   </div>
 )
