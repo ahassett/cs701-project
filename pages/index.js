@@ -37,7 +37,7 @@ handleSelect(selectedTab) {
              Welcome Back!
            </p>
            <div className='schedule'>
-               <Button variant="outline-dark" className="button" style={{'margin-left': '455px'}}>New Schedule</Button>
+               <Button variant="success" className="button" style={{'margin-left': '455px'}}>New Schedule</Button>
            </div>
            <div className='catelog'>
 
@@ -45,7 +45,10 @@ handleSelect(selectedTab) {
              <Tab eventKey='1' title="Catelog">
                  <Accordion defaultActiveKey="0">
                      <Card>
-                         <Accordion.Toggle as={Card.Header} eventKey="0">Class Title</Accordion.Toggle>
+                         <Accordion.Toggle as={Card.Header} eventKey="0">
+                            Class Title
+                            <Button variant="success" className='save-button'>Save</Button>
+                        </Accordion.Toggle>
                          <Accordion.Collapse eventKey="0">
                              <Card.Body>Hello! I'm the body</Card.Body>
                          </Accordion.Collapse>
@@ -63,7 +66,7 @@ handleSelect(selectedTab) {
          </Tabs>
 
          <Dropdown id='select-semester'>
-             <Dropdown.Toggle variant="success" id="dropdown-basic" style={{'position': 'fixed', 'top': '90px', 'marginLeft': '555px'}}>
+             <Dropdown.Toggle variant="secondary" id="dropdown-basic" style={{'position': 'fixed', 'top': '90px', 'marginLeft': '555px'}}>
                  Select Semester
              </Dropdown.Toggle>
 

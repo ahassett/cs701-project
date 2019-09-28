@@ -204,7 +204,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      variant: "outline-dark",
+      variant: "success",
       className: "button",
       style: {
         'margin-left': '455px'
@@ -262,23 +262,31 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 48
       },
       __self: this
-    }, "Class Title"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
-      eventKey: "0",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49
-      },
-      __self: this
-    }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
+    }, "Class Title", __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      variant: "success",
+      className: "save-button",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 50
       },
       __self: this
-    }, "Hello! I'm the body"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    }, "Save")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
+      eventKey: "0",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 53
+      },
+      __self: this
+    }, "Hello! I'm the body"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
       },
       __self: this
     }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Toggle, {
@@ -286,20 +294,20 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       eventKey: "1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 57
       },
       __self: this
     }, "Class Title 2"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
       eventKey: "1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 58
       },
       __self: this
     }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 59
       },
       __self: this
     }, "Hello! I'm another body"))))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Tab"], {
@@ -307,18 +315,18 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Saved Classes",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62
+        lineNumber: 65
       },
       __self: this
     }, "Content 2")), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a, {
       id: "select-semester",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 68
       },
       __self: this
     }, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Toggle, {
-      variant: "success",
+      variant: "secondary",
       id: "dropdown-basic",
       style: {
         'position': 'fixed',
@@ -327,34 +335,34 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 69
       },
       __self: this
     }, "Select Semester"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Menu, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 73
       },
       __self: this
     }, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
       href: "#/action-1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71
+        lineNumber: 74
       },
       __self: this
     }, "Action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
       href: "#/action-2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72
+        lineNumber: 75
       },
       __self: this
     }, "Another action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
       href: "#/action-3",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73
+        lineNumber: 76
       },
       __self: this
     }, "Something else")))));
