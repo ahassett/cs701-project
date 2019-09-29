@@ -127,8 +127,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Card */ "react-bootstrap/Card");
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "C:\\Users\\ahass\\cs701-project\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // make sure you install react-bootstrap! use npm install react-bootstrap bootstrap
@@ -140,228 +142,295 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
-}, __jsx("title", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, "Schedule Planner"), __jsx("link", {
-  href: "/static/style.css",
-  rel: "stylesheet",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-})), __jsx("p", {
-  className: "welcomeback",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18
-  },
-  __self: undefined
-}, "Welcome Back!"), __jsx("div", {
-  className: "schedule",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 21
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  variant: "outline-dark",
-  className: "button",
-  style: {
-    'margin-left': '455px'
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 22
-  },
-  __self: undefined
-}, "New Schedule")), __jsx("div", {
-  className: "catelog",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 24
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  id: "select-semester",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 26
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Toggle, {
-  variant: "success",
-  id: "dropdown-basic",
-  style: {
-    'position': 'fixed',
-    'top': '90px',
-    'margin-left': '555px'
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, "Select Semester"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Menu, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 31
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-  href: "#/action-1",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 32
-  },
-  __self: undefined
-}, "Action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-  href: "#/action-2",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 33
-  },
-  __self: undefined
-}, "Another action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
-  href: "#/action-3",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
-}, "Something else"))), __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a, {
-  id: "catelog-tabs",
-  variant: "tabs",
-  defaultActiveKey: "./",
-  style: {
-    'margin-top': '20px'
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 38
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a.Item, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 39
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a.Link, {
-  href: "./",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 40
-  },
-  __self: undefined
-}, "Catelog")), __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a.Item, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 42
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a.Link, {
-  eventKey: "link-1",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 43
-  },
-  __self: undefined
-}, "Saved Classes"))), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a, {
-  defaultActiveKey: "0",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 47
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 48
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Toggle, {
-  as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Header,
-  eventKey: "0",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 49
-  },
-  __self: undefined
-}, "Class Title"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
-  eventKey: "0",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 50
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 51
-  },
-  __self: undefined
-}, "Hello! I'm the body"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 54
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Toggle, {
-  as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Header,
-  eventKey: "1",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 55
-  },
-  __self: undefined
-}, "Class Title 2"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
-  eventKey: "1",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 56
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 57
-  },
-  __self: undefined
-}, "Hello! I'm another body")))))));
-/*
 
-const Index = () => (
+
+class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super();
+    this.state = {
+      activeTab: props.activeTab || '1',
+      saved: false
+    };
+    this.handleSelect = this.handleSelect.bind(this); // bind action handler
+
+    this.handleSave = this.handleSave.bind(this);
+  }
+
+  handleSelect(selectedTab) {
+    // The active tab must be set into the state so that
+    // the tabs component knows about the change and re-renders.
+    this.setState({
+      activeTab: selectedTab
+    });
+  }
+
+  handleSave(bool) {
+    this.setState({
+      saved: !bool
+    });
+  }
+
+  render() {
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }, __jsx("title", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, "Schedule Planner"), __jsx("link", {
+      href: "/static/style.css",
+      rel: "stylesheet",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    })), __jsx("p", {
+      className: "welcomeback",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, "Welcome Back!"), __jsx("div", {
+      className: "schedule",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      variant: "success",
+      className: "button",
+      style: {
+        'margin-left': '455px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, "New Schedule")), __jsx("div", {
+      className: "catelog",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Tabs"], {
+      defaultActiveKey: this.state.activeTab,
+      id: "tabs",
+      onSelect: this.handleSelect,
+      style: {
+        'marginTop': '20px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Tab"], {
+      eventKey: "1",
+      title: "Catelog",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      defaultActiveKey: "0",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Toggle, {
+      as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Header,
+      eventKey: "0",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
+    }, "Class Title", __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      variant: "success",
+      className: "save-button",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    }, "Save")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
+      eventKey: "0",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    }, "Class Details"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Toggle, {
+      as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Header,
+      eventKey: "1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, "Class Title 2"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
+      eventKey: "1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, "Hello! I'm another body"))))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Tab"], {
+      eventKey: "2",
+      title: "Saved Classes",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
+    }, "Content 2")), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      id: "select-semester",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Toggle, {
+      variant: "secondary",
+      id: "dropdown-basic",
+      style: {
+        'position': 'fixed',
+        'top': '90px',
+        'marginLeft': '555px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    }, "Select Semester"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Menu, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+      href: "#/action-1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76
+      },
+      __self: this
+    }, "Action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+      href: "#/action-2",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77
+      },
+      __self: this
+    }, "Another action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+      href: "#/action-3",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78
+      },
+      __self: this
+    }, "Something else")))));
+    console.log(this.state.saved);
+  }
+
+}
+
+;
+/* harmony default export */ __webpack_exports__["default"] = (Index);
+/*
+export default () => (
   <div>
-  <h1 className='welcomeback'>Welcome back!</h1>
+    <Head>
+      <title>Schedule Planner</title>
+      <link href="/static/style.css" rel="stylesheet" />
+    </Head>
+    <p className="welcomeback">
+      Welcome Back!
+    </p>
     <div className='schedule'>
+        <Button variant="outline-dark" className="button" style={{'margin-left': '455px'}}>New Schedule</Button>
     </div>
     <div className='catelog'>
+        <Tabs defaultActiveKey="home" transition={true} id="noanim-tab-example" style={{'margine-top':'20px'}}>
+            <Tab eventKey="home" title="Home">
+                <ControlledTabs />
+            </Tab>
+            <Tab eventKey="profile" title="Profile">
+                <ControlledTabs />
+            </Tab>
+        </Tabs>
+        <Dropdown id='select-semester'>
+            <Dropdown.Toggle variant="success" id="dropdown-basic" style={{'position': 'fixed', 'top': '90px', 'margin-left': '555px'}}>
+                Select Semester
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            </Dropdown.Menu>
+        </Dropdown>
+        <Accordion defaultActiveKey="0">
+            <Card>
+                <Accordion.Toggle as={Card.Header} eventKey="0">Class Title</Accordion.Toggle>
+                <Accordion.Collapse eventKey="0">
+                    <Card.Body>Hello! I'm the body</Card.Body>
+                </Accordion.Collapse>
+            </Card>
+            <Card>
+                <Accordion.Toggle as={Card.Header} eventKey="1">Class Title 2</Accordion.Toggle>
+                <Accordion.Collapse eventKey="1">
+                    <Card.Body>Hello! I'm another body</Card.Body>
+                </Accordion.Collapse>
+            </Card>
+        </Accordion>
     </div>
   </div>
-);
+)
 */
-// create couple devs that create the foundation for the home website
-// plan for first week: centralize the catalog and the schedule planner
-//                      establish connection between backend and frontend
-// second week: start working on HTML and CSS, and other components that make up the design of the website
-// export default Index;
 
 /***/ }),
 
@@ -396,6 +465,17 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-bootstrap":
+/*!**********************************!*\
+  !*** external "react-bootstrap" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap");
 
 /***/ }),
 
