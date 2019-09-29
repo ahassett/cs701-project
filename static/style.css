@@ -31,5 +31,6 @@
     visibility: hidden;
 }
 .save-button{
+    position: absolute;
     margin-left: 550px;
 }

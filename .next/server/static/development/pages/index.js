@@ -148,10 +148,12 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super();
     this.state = {
-      activeTab: props.activeTab || '1'
-    }; // default - first tab
-
+      activeTab: props.activeTab || '1',
+      saved: false
+    };
     this.handleSelect = this.handleSelect.bind(this); // bind action handler
+
+    this.handleSave = this.handleSave.bind(this);
   }
 
   handleSelect(selectedTab) {
@@ -162,23 +164,29 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     });
   }
 
+  handleSave(bool) {
+    this.setState({
+      saved: !bool
+    });
+  }
+
   render() {
     return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 37
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 38
       },
       __self: this
     }, __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 39
       },
       __self: this
     }, "Schedule Planner"), __jsx("link", {
@@ -186,21 +194,21 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 40
       },
       __self: this
     })), __jsx("p", {
       className: "welcomeback",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 42
       },
       __self: this
     }, "Welcome Back!"), __jsx("div", {
       className: "schedule",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 45
       },
       __self: this
     }, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -211,14 +219,14 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 46
       },
       __self: this
     }, "New Schedule")), __jsx("div", {
       className: "catelog",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 48
       },
       __self: this
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Tabs"], {
@@ -230,7 +238,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 50
       },
       __self: this
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Tab"], {
@@ -238,20 +246,20 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Catelog",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 51
       },
       __self: this
     }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a, {
       defaultActiveKey: "0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 52
       },
       __self: this
     }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 53
       },
       __self: this
     }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Toggle, {
@@ -259,7 +267,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       eventKey: "0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 54
       },
       __self: this
     }, "Class Title", __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -267,26 +275,26 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "save-button",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 55
       },
       __self: this
     }, "Save")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
       eventKey: "0",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 57
       },
       __self: this
     }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 58
       },
       __self: this
     }, "Class Details"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 61
       },
       __self: this
     }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Toggle, {
@@ -294,20 +302,20 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       eventKey: "1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 62
       },
       __self: this
     }, "Class Title 2"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a.Collapse, {
       eventKey: "1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 63
       },
       __self: this
     }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 64
       },
       __self: this
     }, "Hello! I'm another body"))))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Tab"], {
@@ -315,14 +323,14 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       title: "Saved Classes",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 70
       },
       __self: this
     }, "Content 2")), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a, {
       id: "select-semester",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 73
       },
       __self: this
     }, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Toggle, {
@@ -335,37 +343,38 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 74
       },
       __self: this
     }, "Select Semester"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Menu, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73
+        lineNumber: 78
       },
       __self: this
     }, __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
       href: "#/action-1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 79
       },
       __self: this
     }, "Action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
       href: "#/action-2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75
+        lineNumber: 80
       },
       __self: this
     }, "Another action"), __jsx(react_bootstrap_Dropdown__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
       href: "#/action-3",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 76
+        lineNumber: 81
       },
       __self: this
     }, "Something else")))));
+    console.log(this.state.saved);
   }
 
 }

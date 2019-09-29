@@ -14,16 +14,22 @@ class Index extends React.Component {
   constructor(props) {
     super();
     this.state = {
-      activeTab: props.activeTab || '1' }; // default - first tab
+      activeTab: props.activeTab || '1' ,
+      saved: false };
 
     this.handleSelect = this.handleSelect.bind(this); // bind action handler
+    this.handleSave = this.handleSave.bind(this);
     }
 
 handleSelect(selectedTab) {
   // The active tab must be set into the state so that
   // the tabs component knows about the change and re-renders.
-  this.setState({
-    activeTab: selectedTab });
+    this.setState({
+        activeTab: selectedTab });
+}
+handleSave(bool) {
+    this.setState({
+        saved: !bool });
 }
 
  render(){
@@ -46,8 +52,7 @@ handleSelect(selectedTab) {
                  <Accordion defaultActiveKey="0">
                      <Card>
                          <Accordion.Toggle as={Card.Header} eventKey="0">
-                            Class Title
-                            <Button variant="success" className='save-button'>Save</Button>
+                         Class Title<Button variant="success" className='save-button'>Save</Button>
                         </Accordion.Toggle>
                          <Accordion.Collapse eventKey="0">
                              <Card.Body>Class Details</Card.Body>
@@ -79,6 +84,7 @@ handleSelect(selectedTab) {
      </div>
    </div>
      );
+     console.log(this.state.saved)
  }
 };
 
